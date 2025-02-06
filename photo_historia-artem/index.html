@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Photo Historiya</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body class="background-one">
+	<!-- прелоадер -->
+	<div class="preloader"></div>
+
+	
+		<!-- Центральный блок -->
+	<div class="container-fluid d-flex h-100 justify-content-center align-items-center p-0">
+		<div class="row">
+			<div class="text-center">
+				<!-- Профиль -->
+				<div class="row align-items-center">
+					<div class="m_tt">
+						<img src="https://i.ibb.co/Swt4pm8Y/photo-2025-02-06-20-45-56.jpg" class="img-avatar photo">
+					</div>
+					<figure class="text-center mb-5">
+						<blockquote class="blockquote">
+							<h4 class="color-white m_text" style="font-family: 'Nunito', sans-serif;"><strong>Лубинский Артём ❘ 11Б</strong></h4><br>
+							<h2 class="color-white text-center" style="font-family: 'Nunito', sans-serif;"><strong>«Photo Historiya»</strong></h2>
+						</blockquote>
+					</figure>
+				</div>
+			</div>		
+			
+			<div class="col-md-2">
+				<a href="main.html"><img src="https://b9.dd.icdn.ru/b/banana2804/1/75645561ZbB.jpg" width="150" height="150" class="img-avatar_2"></a>
+			</div>
+			<div class="col-md-5 color-white"><strong><br>&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фотограф Анастасия<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="main.html" class="link-light">Портфолио</a></strong></div>
+						
+            </div>	
+		</div>
+	</div>
+	
+	
+	
+	<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- прелоадер -->		
+	<script>
+		$(window).on('load', function () {
+			window.setTimeout(function () {
+				$('.preloader').fadeOut().end().delay(400).fadeOut('slow');
+			}, 10);
+		});
+	</script>
+</body>
+</html>
